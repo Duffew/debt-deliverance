@@ -99,17 +99,17 @@ main {
 
 #overlay-text {
     background-color: rgba(37, 77, 76, 0.7);
-    font-size: 90%;
     position: absolute;
-    top: 30%;
+    top: 40%;
+    left: 0.5rem;
     width : 66%;
-    min-height: 180px;
-    padding-top: 1rem;
-    padding-left: 2rem;
+    min-height: 50px;
+    padding: 1rem 0.5rem;
 }
 
 #overlay-text > h2 {
     color: #b9aa87;
+    font-size: 90%;
 }
 /* footer */
 footer p {
