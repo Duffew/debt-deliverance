@@ -44,6 +44,7 @@ h1 {
 
 #menu {
     font-size: 110%;
+    font-weight: bold;
     list-style-type: none;
     letter-spacing: 1px;
 }
