@@ -185,8 +185,6 @@ footer p {
     }
 
     #overlay-text {
-        background-color: rgba(37, 77, 76, 0.7);
-        position: absolute;
         top: 30%;
         left: 1.5rem;
         width: 33%;
