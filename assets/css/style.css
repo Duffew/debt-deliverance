@@ -163,6 +163,10 @@ footer p {
         /* push main content down to accommodate larger header */
         margin-top: 79px;
     }
+    /* hero section */
+    #overlay-text {
+        width: 300px;
+    }
 }
 
 /* media query: small laptops and larger (992px and up) */
