@@ -89,6 +89,13 @@ main {
     margin-top: 47px;
 }
 
+/* hero section */
+#hero {
+    height: 450px;
+    width: 100%;
+    background: url(../images/pexels-valeriya.webp) no-repeat center center / cover;
+}
+
 /* footer */
 footer p {
     text-align: center;
