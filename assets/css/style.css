@@ -84,15 +84,28 @@ nav {
 
 /* main content */
 main {
-    background-color: orangered;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* footer */
-footer {
+footer p {
+    text-align: center;
+    font-weight: bold;
+    color: #46686b;
+}
+#social-media {
+    text-align: center;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
+#social-media i {
+    font-size: 150%;
+    color: #46686b;
 }
 
 /* media query: tablets and larger (768px and up) */
