@@ -25,11 +25,15 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 2px #7f4d3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: #46686b;
+
 }
 
 h1 {
@@ -51,13 +55,39 @@ h1 {
 .active{
     color: #7f4d3e;
     font-weight: bold;
-} 
+}
+
+/* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
+nav {
+    position: absolute;
+    background-color: #f6edd9;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 2px #7f4d3e;
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* main content */
 main {
     background-color: orangered;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* footer */
