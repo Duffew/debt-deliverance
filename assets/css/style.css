@@ -18,8 +18,40 @@ body {
 
 /* header */
 header {
-    background-color: #46686b;
+    background-color: #f6edd9;
+    color: #46686b;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 2px #7f4d3e;
 }
+
+header a {
+    text-decoration: none;
+    color: #46686b;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+#memu li {
+    margin-bottom: 1em;
+}
+
+.active{
+    color: #7f4d3e;
+    font-weight: bold;
+} 
 
 /* main content */
 main {
