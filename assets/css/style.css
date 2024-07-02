@@ -153,6 +153,10 @@ footer p {
 /* media query: small laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #b9aa87
+        color: #b9aa87;
+    }
+
+    #social-media i:hover {
+        color: #b9aa87;
     }
 }
