@@ -18,7 +18,7 @@ body {
 
 /* header */
 header {
-    background-color: #f6edd9;
+    background-color: #ffffff;
     color: #46686b;
     padding: 0 1rem;
     position: fixed;
@@ -32,13 +32,14 @@ header {
 header a {
     text-decoration: none;
     color: #46686b;
-
 }
 
 h1 {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    color: #46686b;
     font-size: 1.5rem;
+    font-weight: 900;
 }
 
 #menu {
@@ -59,7 +60,7 @@ h1 {
 /* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
 nav {
     position: absolute;
-    background-color: #f6edd9;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -108,7 +109,7 @@ footer {
     }
 
     #menu li {
-        padding-left: 1 rem;
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -116,8 +117,14 @@ footer {
     }
 
     #logo {
-        font-size: 1000%;
+        font-size: 200%;
         line-height: 80px;
         margin: 0 0.5rem;
+    }
+
+    /* main content */
+    main {
+        /* push main content down to accommodate larger header */
+        margin-top: 79px;
     }
 }
