@@ -113,6 +113,11 @@ main {
     font-size: 90%;
 }
 
+/* main text content */
+#hope ol {
+    list-style-position: inside;
+}
+
 /* footer */
 footer p {
     text-align: center;
