@@ -1,13 +1,11 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* wildcard selector to overrride default browser settings */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 /* general styles for the body */
 body {
     min-height: 100vh;
@@ -15,50 +13,51 @@ body {
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 h1,
 h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #46686b;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 900;
 }
-
+p {
+  line-height: 1.33rem;
+}
 /* header */
 header {
     background-color: #ffffff;
     color: #46686b;
     padding: 0 1rem;
-    position: fixed;
+    position: relative;
     z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-
 header a {
     text-decoration: none;
     color: #46686b;
 }
-
 #menu {
     font-size: 110%;
     font-weight: bold;
     list-style-type: none;
     letter-spacing: 1px;
 }
-
 #memu li {
     margin-bottom: 1em;
 }
-
 .active {
     color: #7f4d3e;
     font-weight: bold;
 }
-
 /* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
 nav {
     position: absolute;
@@ -69,35 +68,28 @@ nav {
     display: none;
     top: 100%;
 }
-
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 /* main content */
 main {
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
 }
-
 /* hero section */
 #hero {
     height: 450px;
     width: 100%;
-    background: url(../images/pexels-valeriya.webp) no-repeat center center / cover;
+    background: url(../images/pexels-valeriya.jpg) no-repeat center center / cover;
     position: relative;
 }
-
 #overlay-text {
     background-color: rgba(37, 77, 76, 0.7);
     position: absolute;
@@ -107,24 +99,28 @@ main {
     min-height: 50px;
     padding: 1rem 0.5rem;
 }
-
 #overlay-text>h2 {
     color: #b9aa87;
     font-size: 90%;
 }
-
 /* main text content */
+#hope {
+    padding: 0 1rem;
+}
+.subhead {
+  padding: 0.3rem 0;
+  font-style: italic;
+}
 #hope ol {
     list-style-position: inside;
+    line-height: 1.33rem
 }
-
 /* footer */
 footer p {
     text-align: center;
     font-weight: bold;
     color: #46686b;
 }
-
 #social-media {
     text-align: center;
     padding: 1.5rem 0;
@@ -132,15 +128,18 @@ footer p {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social-media i {
     font-size: 150%;
     color: #46686b;
 }
-
+/* media query: tablets and larger (400px and up) */
+@media screen and (min-width: 400px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* header */
     nav {
         display: block;
@@ -148,47 +147,33 @@ footer p {
         width: fit-content;
         padding-right: 1rem;
     }
-
     #menu {
         display: flex;
     }
-
     #menu li {
         padding-left: 1rem;
     }
-
     .nav-toggle-label {
         display: none;
     }
-
     #logo {
         font-size: 200%;
         line-height: 80px;
         margin: 0 0.5rem;
     }
-
-    /* main content */
-    main {
-        /* push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-
     /* hero section */
     #overlay-text {
         width: 300px;
     }
 }
-
 /* media query: small laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: #b9aa87;
     }
-
     #social-media i:hover {
         color: #b9aa87;
     }
-
     #overlay-text {
         top: 30%;
         left: 1.5rem;
@@ -196,9 +181,7 @@ footer p {
         min-height: 200px;
         padding: 1.5rem 1.5rem;
     }
-
     #overlay-text>h2 {
         font-size: 200%;
     }
-
 }
