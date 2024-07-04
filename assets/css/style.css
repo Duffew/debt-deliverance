@@ -115,6 +115,13 @@ main {
     list-style-position: inside;
     line-height: 1.33rem
 }
+
+#bridge {
+    background: url(../images/pexels-snapwire.jpg) no-repeat center center / cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
 /* footer */
 footer p {
     text-align: center;
