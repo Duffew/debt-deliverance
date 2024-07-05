@@ -117,12 +117,37 @@ main {
     line-height: 1.33rem
 }
 
+/* steps page */
 #bridge {
     background: url(../images/pexels-snapwire.jpg) no-repeat center center / cover;
     height: 300px;
     width: 100%;
     position: relative;
 }
+
+/* internal nav - steps page */
+
+#nav-steps {
+    width: 100%;
+}
+
+#nav-steps-list {
+    width: 100%;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: large;
+}
+
+#nav-steps-list a {
+    text-decoration: none;
+    color: #46686b;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 /* footer */
 footer p {
     text-align: center;
