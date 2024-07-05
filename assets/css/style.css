@@ -172,6 +172,11 @@ footer p {
   h1 {
     font-size: 1.4rem;
   }
+    
+  /* setps - internal navigation */
+  #nav-steps-list {
+    font-size: medium;
+  }
 }
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -200,6 +205,11 @@ footer p {
     #overlay-text {
         width: 300px;
     }
+
+    /* steps page - internal nav */
+    #nav-steps-list {
+        font-size: large;
+    }
 }
 /* media query: small laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
@@ -218,5 +228,9 @@ footer p {
     }
     #overlay-text>h2 {
         font-size: 200%;
+    }
+
+    #nav-steps-list a:hover {
+        color: #b9aa87
     }
 }
