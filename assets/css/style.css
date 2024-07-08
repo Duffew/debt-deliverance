@@ -32,6 +32,9 @@ p, li {
   line-height: 2rem;
 }
 
+div {
+    margin-top: 3rem;
+}
 /* header */
 header {
     background-color: #ffffff;
@@ -107,7 +110,7 @@ main {
     font-size: 90%;
 }
 /* main text content */
-#hope {
+.div-padding {
     padding: 0 1rem;
 }
 .subhead {
@@ -116,7 +119,6 @@ main {
 }
 #hope ol {
     list-style-position: inside;
-    line-height: 1.33rem
 }
 
 /* steps page */
@@ -126,6 +128,7 @@ main {
     height: 300px;
     width: 100%;
     position: relative;
+    margin-top: 0%;
 }
 
 /* internal nav - steps page */
@@ -150,6 +153,10 @@ main {
     color: #46686b;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+#behaviour {
+    margin-top: 0;
 }
 
 /* footer */
