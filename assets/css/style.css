@@ -27,9 +27,11 @@ h3 {
     font-size: 1.1rem;
     font-weight: 900;
 }
-p {
-  line-height: 1.33rem;
+
+p, li {
+  line-height: 2rem;
 }
+
 /* header */
 header {
     background-color: #ffffff;
