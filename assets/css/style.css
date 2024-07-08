@@ -163,6 +163,19 @@ main {
     margin-top: 0;
 }
 
+#principles li {
+    list-style-type: none;
+}
+
+.steps-list {
+    margin: 0 1.5rem;
+}
+
+.list-intro {
+    color: #C00403;
+    font-weight: 800;
+}
+
 /* footer */
 footer p {
     text-align: center;
