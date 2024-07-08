@@ -140,7 +140,7 @@ main {
 
 #nav-steps-list {
     width: 100%;
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -153,6 +153,10 @@ main {
     color: #46686b;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+#steps-main-text {
+    margin-top: 0.625rem;
 }
 
 #behaviour {
