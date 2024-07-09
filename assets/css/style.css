@@ -64,6 +64,11 @@ header a {
     color: #C00403;
     font-weight: bold;
 }
+
+.list-margin {
+    margin: 0 1.5rem;
+}
+
 /* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
 nav {
     position: absolute;
@@ -167,13 +172,23 @@ main {
     list-style-type: none;
 }
 
-.steps-list {
-    margin: 0 1.5rem;
-}
-
 .list-intro {
     color: #C00403;
     font-weight: 800;
+}
+
+h4 {
+    color: #C00403;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#steps-heading {
+    color: #172200;
+}
+
+#steps-list-style {
+    
 }
 
 /* footer */
