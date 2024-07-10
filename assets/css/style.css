@@ -65,9 +65,6 @@ header a {
     font-weight: bold;
 }
 
-.list-margin {
-    margin: 0 1.5rem;
-}
 
 /* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
 nav {
@@ -183,12 +180,20 @@ h4 {
     text-transform: uppercase;
 }
 
+#steps-prereqs {
+    margin-top: 0;
+}
+
+#steps-prereqs-list {
+    margin: auto 1rem;
+}
+
 #steps-heading {
     color: #172200;
 }
 
-#steps-list-style {
-    
+#steps-list li{
+    list-style-type: none;
 }
 
 /* footer */
@@ -218,6 +223,16 @@ footer p {
   #nav-steps-list {
     font-size: medium;
   }
+
+  /* list margin adjustments */
+  .list-margin {
+    margin: 0 1.5rem;
+}
+
+#steps-prereqs-list {
+    margin: auto 1.5rem;
+}
+
 }
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
