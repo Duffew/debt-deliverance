@@ -189,6 +189,7 @@ main {
     background: url('../images/jesson-mata-2xfzXOP8hHc-unsplash.jpg') no-repeat center center / cover;
     width: 100%;
     height: 200px;
+    margin-top: 1.5rem;
 }
 
 #principles-list {
@@ -208,6 +209,7 @@ main {
     background: url('../images/pexels-nadine-ginzel-80607840-12.jpg') no-repeat center center / contain;
     width: 100%;
     height: 300px;
+    margin-top: 1.5rem;
 }
 
 #steps-prereqs {
@@ -274,6 +276,7 @@ footer p {
     #principles-image {
         height: 300px;
     }
+
     /* process image */
     #process-image {
         height: 400px;
