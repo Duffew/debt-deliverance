@@ -407,7 +407,7 @@ footer p {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: #b9aa87;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     #social-media i:hover {
@@ -427,7 +427,8 @@ footer p {
     }
 
     #nav-steps-list a:hover {
-        color: #b9aa87
+        color: #b9aa87;
+        transition: 0.3s;
     }
 
     .signup-button:hover {
