@@ -251,6 +251,17 @@ main {
     background-size: cover;
     background-position: 100%;
     flex-grow: 1;
+    padding: 1rem 10%;
+}
+
+#signup h2 {
+    color: #FFF9EC;
+}
+
+#signup-form {
+    color: #FFF9EC;
+    background-color: rgba(70, 104, 107, 0.6);
+    padding: 1rem;
 }
 
 /* footer */
