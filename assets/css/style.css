@@ -289,7 +289,7 @@ main {
     font-size: 0.7rem;
 }
 
-#signup-button {
+.signup-button {
     margin-top: 1rem;
     padding: 0.5rem 2rem;
     width: 100%;
@@ -407,6 +407,7 @@ footer p {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: #b9aa87;
+        transition: 0.5s;
     }
 
     #social-media i:hover {
@@ -427,6 +428,15 @@ footer p {
 
     #nav-steps-list a:hover {
         color: #b9aa87
+    }
+
+    .signup-button:hover {
+        background-color: #b9aa87;
+        transition: 0.5s;
+    }
+
+    .signup-button:active {
+        background-color: #C00403;
     }
 
 }
