@@ -252,6 +252,7 @@ main {
     background-position: 100%;
     flex-grow: 1;
     padding: 1rem 10%;
+    max-width: 400px;
 }
 
 .res-overlay {
@@ -384,6 +385,7 @@ footer p {
     /* signup form */
     #signup {
         padding-left: 2rem;
+        max-width: 768px;
     }
 
     #signup-form,
@@ -446,6 +448,10 @@ footer p {
         height: 2rem;
     }
 
+    #signup {
+        max-width: 992px;
+    }
+
     #resources {
         background-position: 100%;
     }
@@ -485,6 +491,10 @@ footer p {
 
     /* resources page */
     /* signup section */
+    #signup {
+        max-width: 100%;
+    }
+
     .signup-button:hover {
         background-color: #b9aa87;
         transition: 0.5s;
