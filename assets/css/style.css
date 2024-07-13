@@ -16,6 +16,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* welcome page */
 .wrapper {
     width: 100%;
     max-width: 1080px;
@@ -149,7 +150,7 @@ main {
 }
 
 /* steps page */
-
+/* top image */
 #bridge {
     background: url(../images/pexels-snapwire-bridge.webp) no-repeat center center / cover;
     height: 300px;
@@ -158,8 +159,7 @@ main {
     margin-top: 0%;
 }
 
-/* internal nav - steps page */
-
+/* internal navigation */
 #nav-steps {
     width: 100%;
     display: contents;
@@ -311,6 +311,19 @@ main {
     padding: 1rem 10%;
 }
 
+#links h3 {
+    color: #FFF9EC;
+    font-size: medium;
+}
+
+#links ul {
+    list-style-type: none;
+}
+
+#links a {
+    color: #FFF9EC;
+}
+
 /* footer */
 footer p {
     text-align: center;
@@ -338,7 +351,8 @@ footer p {
         padding-top: 0.5rem;
     }
 
-    /* setps page - internal navigation */
+/* setps page /
+    /*internal navigation */
     #nav-steps-list {
         font-size: medium;
     }
@@ -362,7 +376,7 @@ footer p {
         height: 400px;
     }
 
-    /* resources page */
+/* resources page */
     /* signup form */
     #signup {
         padding-left: 2rem;
@@ -376,7 +390,7 @@ footer p {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
+/* welcome page */
     /* header */
     nav {
         display: block;
@@ -408,12 +422,13 @@ footer p {
         width: 300px;
     }
 
-    /* steps page - internal nav */
+/* steps page*/
+    /* internal navigation */
     #nav-steps-list {
         font-size: large;
     }
 
-    /* resources page */
+/* resources page */
     /* text input field */
     .text-input {
         height: 2rem;
@@ -422,6 +437,7 @@ footer p {
 }
 
 /* media query: small laptops and larger (992px and up) */
+/* welcome page */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: #b9aa87;
@@ -444,11 +460,15 @@ footer p {
         font-size: 200%;
     }
 
+/* steps page */
+    /* internal navigation */
     #nav-steps-list a:hover {
         color: #b9aa87;
         transition: 0.3s;
     }
 
+/* resources page */
+    /* signup section */
     .signup-button:hover {
         background-color: #b9aa87;
         transition: 0.5s;
@@ -456,6 +476,12 @@ footer p {
 
     .signup-button:active {
         background-color: #C00403;
+    }
+
+    /* links section */
+    #links a:hover {
+        color: #5f850f;
+        transition: 0.3s;
     }
 
 }
