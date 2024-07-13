@@ -311,6 +311,10 @@ main {
     padding: 1rem 10%;
 }
 
+#links {
+    margin-top: 0;
+}
+
 #links h3 {
     color: #FFF9EC;
     font-size: medium;
@@ -382,10 +386,18 @@ footer p {
         padding-left: 2rem;
     }
 
-    #signup-form {
+    #signup-form,
+    #links {
         max-width: 380px;
     }
 
+    #resources {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        padding-right: 2rem;
+        background-position: 100%;
+    }
 }
 
 /* media query: tablets and larger (768px and up) */
