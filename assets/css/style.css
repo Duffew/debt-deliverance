@@ -396,7 +396,7 @@ footer p {
         justify-content: flex-end;
         margin-left: auto;
         padding-right: 2rem;
-        background-position: 100%;
+        background-position: 55%;
     }
 }
 
@@ -444,6 +444,10 @@ footer p {
     /* text input field */
     .text-input {
         height: 2rem;
+    }
+
+    #resources {
+        background-position: 100%;
     }
 
 }
