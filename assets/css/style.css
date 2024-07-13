@@ -265,7 +265,10 @@ main {
     margin-bottom: 1rem;
 }
 
-#signup-form h4 {
+#signup-form h3 {
+    color: #FFF9EC;
+    text-transform: none;
+    font-weight: 600;
     margin-top: 1rem;
 }
 
