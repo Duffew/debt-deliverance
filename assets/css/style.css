@@ -455,16 +455,21 @@ footer p {
         align-items: baseline;
         padding-bottom: 2rem;
     }
-    /* text input field */
-    .text-input {
-        height: 2rem;
+
+    .col {
+        flex: 1;
+        border: solid;
+        padding: 1em;
+        margin: 2px;
     }
 
     #signup,
     #resources {
         background: none;
-        width: 380px;
-        height: 670px;
+    }
+    /* text input field */
+    .text-input {
+        height: 2rem;
     }
 }
 
