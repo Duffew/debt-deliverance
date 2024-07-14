@@ -247,12 +247,13 @@ main {
 /* resources page */
 /* form */
 #signup {
-    background: url('../images/mcgruddy-unsplash-path.webp');
+    background: url('../images/mcgruddy-unspalsh-path-540.webp');
     background-size: cover;
     background-position: 100%;
     flex-grow: 1;
     padding: 1rem 10%;
     max-width: 400px;
+    margin-top: 0;
 }
 
 .res-overlay {
