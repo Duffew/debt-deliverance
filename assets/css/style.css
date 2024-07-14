@@ -260,7 +260,8 @@ main {
     margin-top: 0;
 }
 
-.res-overlay {
+#links,
+#signup-form {
     color: #FFF9EC;
     background-color: rgba(27, 61, 47, 0.7);
     padding: 1rem;
@@ -316,6 +317,7 @@ main {
     background-size: cover;
     background-position: 45%;
     padding: 1rem 10%;
+    margin-top: 0;
 }
 
 #links {
@@ -394,15 +396,9 @@ footer p {
         max-width: 768px;
     }
 
-    #signup-form,
-    #links {
-        max-width: 380px;
-    }
-
     #resources {
         display: flex;
         justify-content: flex-end;
-        margin-left: auto;
         padding-right: 2rem;
         background-position: 55%;
     }
@@ -449,11 +445,6 @@ footer p {
     }
 
 /* resources page */
-    /* text input field */
-    .text-input {
-        height: 2rem;
-    }
-
     #all-body {
         width: 100%;
         background: url('../images/pexels-akilmazumder-hand.webp') no-repeat;
@@ -464,17 +455,17 @@ footer p {
         align-items: baseline;
         padding-bottom: 2rem;
     }
+    /* text input field */
+    .text-input {
+        height: 2rem;
+    }
 
     #signup,
     #resources {
         background: none;
-    }
-
-    #signup-form,
-    #links {
+        width: 380px;
         height: 670px;
-    } 
-
+    }
 }
 
 /* media query: small laptops and larger (992px and up) */
