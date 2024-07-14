@@ -245,6 +245,10 @@ main {
 }
 
 /* resources page */
+#all-body {
+    margin-top: 0;
+}
+
 /* form */
 #signup {
     background: url('../images/mcgruddy-unspalsh-path-540.webp');
@@ -260,6 +264,7 @@ main {
     color: #FFF9EC;
     background-color: rgba(27, 61, 47, 0.7);
     padding: 1rem;
+    max-width: 350px;
 }
 
 #signup h2,
@@ -449,13 +454,26 @@ footer p {
         height: 2rem;
     }
 
-    #signup {
-        max-width: 992px;
+    #all-body {
+        width: 100%;
+        background: url('../images/pexels-akilmazumder-hand.webp') no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        padding-bottom: 2rem;
     }
 
+    #signup,
     #resources {
-        background-position: 100%;
+        background: none;
     }
+
+    #signup-form,
+    #links {
+        height: 670px;
+    } 
 
 }
 
