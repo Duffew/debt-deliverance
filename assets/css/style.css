@@ -78,7 +78,7 @@ header a {
 }
 
 
-/* nav bar styles with dropdown toggle - acknowledge Code Institute tutor */
+/* nav bar styles with dropdown toggle - acknowledge Code Institute tutor for Love Running */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -108,7 +108,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* hero section */
+/* hero section - acknowledge Code Institute tutor for Love Running */
 #hero {
     height: 450px;
     width: 100%;
