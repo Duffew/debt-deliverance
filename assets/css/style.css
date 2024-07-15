@@ -145,7 +145,7 @@ main {
     list-style-position: inside;
 }
 
-#hope > li {
+#hope>li {
     margin: auto 1rem;
 }
 
@@ -245,7 +245,7 @@ main {
 }
 
 /* resources page */
-#all-body {
+#all-main {
     margin-top: 0;
 }
 
@@ -364,7 +364,7 @@ footer p {
         padding-top: 0.5rem;
     }
 
-/* setps page /
+    /* setps page /
     /*internal navigation */
     #nav-steps-list {
         font-size: medium;
@@ -389,7 +389,7 @@ footer p {
         height: 400px;
     }
 
-/* resources page */
+    /* resources page */
     /* signup form */
     #signup {
         padding-left: 2rem;
@@ -406,7 +406,8 @@ footer p {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-/* welcome page */
+
+    /* welcome page */
     /* header */
     nav {
         display: block;
@@ -438,13 +439,13 @@ footer p {
         width: 300px;
     }
 
-/* steps page*/
+    /* steps page*/
     /* internal navigation */
     #nav-steps-list {
         font-size: large;
     }
 
-/* resources page */
+    /* resources page */
     #all-main {
         width: 100%;
         background: url('../images/pexels-akilmazumder-hand.webp') no-repeat;
@@ -461,7 +462,7 @@ footer p {
         height: 760px;
     }
 
-    #all-main h2{
+    #all-main h2 {
         padding-top: 1rem;
     }
 
@@ -522,7 +523,7 @@ footer p {
         font-size: 200%;
     }
 
-/* steps page */
+    /* steps page */
     /* internal navigation */
     #nav-steps-list a:hover {
         color: #b9aa87;
