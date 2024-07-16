@@ -54,14 +54,25 @@ This website is responsive for all screen sizes.
 
         The headings have been styled using the same font face and colour as the site logo to provide consistancey. A declaration has been applied to the paragraphs and list elements to adjust the line height and allow the text to breath.
 
-    - Footer - The footer contains links to popular social media websites. Each link opens in a new tab and is aria labelled for accessibility purposes.
+    - Footer - The footer contains links to popular social media websites. Each link opens in a new tab and is aria labelled for accessibility purposes. These icons follow the same hover rules as the main navigation links.
 
         <img src="assets/screenshots/footer.png" alt="footer screenshot">
 
         *Footer showing social media links*
 
 + Steps Page
-    - Internal Navigation
+    - Bridge Metaphor Image - The image of the bridge provides visual clarification that the user is on a new page. The bridge is in a garden, building on the garden theme established with the Welcome page. The bridge also represents crossing over from one place to another. As the user follows the steps to get out of debt, they too should cross a divide. The red font highlighting the user's curent page was colour picked from this image to provide consistancy.
+
+        <img src="assets/screenshots/bridge.png" alt="bridge image screenshot">
+
+        *Screenshot of the Bridge metaphor image*
+
+    - Internal Navigation - To aid the user in moving around the page, internal navigation links have been provided beneath the metaphor image. These links use upper case lettering to distinguish them form the main site navigation links. The font face and colour match that of the sections to which they relate. The links obey the same hover rules as the other navigation links.
+
+        <img src="assets/screenshots/internal_nav_links.png" alt="internal navigation sceenshot">
+
+        *Internal navigation links*
+
 + Resources Page
     - Signup Form
     - External Links
