@@ -1,5 +1,18 @@
-# Debt Deliverance
-link
+# Debt Deliverance Website
+
+[View the deployed version here.](https://duffew.github.io/debt-deliverance/)
+
+The Debt Deliverance website is a lifehacks website, designed as a landing pad for people struggling with debt. Its purpose is to provide hope, practical advice and further references to anyone looking to begin managing thier debt.
+
+Users of this website will find: 
++ a positive message about thier circumstances 
++ advice on behaviour, principles and the process of getting out of debt
++ links to resources which may help including a newsletter sign-up form
+
+This website is responsive for all screen sizes.
+
+
+
 
 
 ## Features
@@ -44,6 +57,7 @@ favicon generator
 ### content
 all written by the developer
 ### media
+photos
 ### acknowledgements
 
 ## Lessons
