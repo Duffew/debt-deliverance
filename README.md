@@ -61,7 +61,7 @@ This website is responsive for all screen sizes.
         *Footer showing social media links*
 
 + Steps Page
-    - Bridge Metaphor Image - The image of the bridge provides visual clarification that the user is on a new page. The bridge is in a garden, building on the garden theme established with the Welcome page. The bridge also represents crossing over from one place to another. As the user follows the steps to get out of debt, they too should cross a divide. The red font highlighting the user's curent page was colour picked from this image to provide consistancy.
+    - Bridge Metaphor Image - The image of the bridge provides visual clarification that the user is on a new page. The bridge is in a garden, building on the Garden theme established with the Welcome page. The bridge also represents crossing over from one place to another. As the user follows the steps to get out of debt, they too should cross a divide. The red font highlighting the user's curent page was colour picked from this image to provide consistancy.
 
         <img src="assets/screenshots/bridge.png" alt="bridge image screenshot">
 
@@ -72,6 +72,45 @@ This website is responsive for all screen sizes.
         <img src="assets/screenshots/internal_nav_links.png" alt="internal navigation sceenshot">
 
         *Internal navigation links*
+
+    - Text Content - The text is divided into the following sections:
+        - Behaviour
+        - Principles
+        - Process
+
+        The purpose to these sections is to promote a behaviour shift by encouraging a principles-based approach to getting out of debt.
+
+        <img src="assets/screenshots/behaviour.png" alt="behaviour sections screenshot">
+
+        *Behavoir section*
+
+        <img src="assets/screenshots/principles.png" alt="principles section screenshot">
+
+        *Principles sections*
+
+        <img src="assets/screenshots/process.png" alt="process section screenshot">
+
+        *Process section*
+
+        Each section has font faces and colour schemes consistant with those already introduced. Line spacing is also consistant. The slight differences in styling from one section to another - red font within Principles and numbered list with green font within Process - enables the user to visually distinguish one section from another.
+
+    - Metaphor Images - This page also includes a number of metaphor images. These images continue to build the Garden theme and provide visual representations of the ideas described. The lantern acts as a guiding light to represent principles. The two chairs surrounded by utensils represents two people sitting together to plan their process. The ladder represents beginning work and moving upwards out of debt. As users select the Principles and Process internal navigation links, the page will jump to the metaphor image preceeding the text.
+
+        <img src="assets/screenshots/lantern.png" alt="lantern"> 
+        
+        *Lantern - principles metaphor*
+
+        <img src="assets/screenshots/chairs.png" alt="chairs"> 
+        
+        *Chairs - process metaphor*
+
+        <img src="assets/screenshots/ladder.png" alt="ladder"> 
+        
+        *Ladder - get to work metaphor*
+
+        
+       
+       
 
 + Resources Page
     - Signup Form
