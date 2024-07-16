@@ -11,9 +11,7 @@ Users of this website will find:
 
 This website is responsive for all screen sizes.
 
-
-
-
+<img src="assets/screenshots/Screenshot-2024-07-16 083300.png">
 
 ## Features
 ### nav
