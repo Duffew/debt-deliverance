@@ -195,8 +195,7 @@ Appraisal testing adopted a quantitative approach with a strong emphasis on Ligh
 #### Conclusions
 + The Lighthouse test results show green across the board for Performance, Accessibility, Best Practices and SEO, with 100% score for each page for everything other than Performance.
 
-+ The WAVE test results showed the same error and alert for each page relating to:
-    - Error - empty form label used in the navigation menu toggle
++ The WAVE test results showed the same alert for each page relating to:
     - Alert - redundant links occurring from copying and pasting navigation HTML from one page to another
 
 + The WAVE test results for the Resources page showed additional alerts relating to:
