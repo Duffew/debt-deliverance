@@ -133,7 +133,7 @@ This website is responsive for all screen sizes.
 
     *Form and links sections on screen sizes above 768px*
 
-+ **Metaphor Images** - Depending on the screen size used, users will see either on or two metaphore images. On screen sizes up to 768px
++ **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphore images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign-up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
 
 ## Dev Steps
 ### strategy
