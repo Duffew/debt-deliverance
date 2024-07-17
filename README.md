@@ -295,18 +295,26 @@ The git reset command was used early in development to revert to an earlier vers
 
 
 ## Lessons
-This section includes a list of lessons learned during this project in no particualr order:
-+ Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implimented. The text based logo works has the same value with far less effort.
+This section includes a list of lessons learned during this project in no particular order:
++ Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implemented. The text-based logo works has the same value with far less effort.
 + Putting temporary borders or background colours around divs really helps - I was struggling with sizing the two divs on the resources page until I put a black border around them so that I could see what I was trying to style. See below for an example:
 
     <img src="assets/screenshots/divs_with_borders.png" alt="divs with borders image">
 
 + Chrome Dev Tools is very powerful BUT I need a lot more practice
-+ I need to set time limits on trying out new things. Trying to fix the Path image issue took a a lot of time and I eventually had to draw a line under it. The same with designing an unused logo. The time wasn't totally wasted as I learned, but I lost time in terms of getting the project complete. Don't let perfect be the enemy of good.
++ I need to set time limits on trying out new things. Trying to fix the Path image issue took a lot of time and I eventually had to draw a line under it. The same with designing an unused logo. The time wasn't totally wasted as I learned, but I lost time in terms of getting the project complete. Don't let perfect be the enemy of good.
 + Flexbox - I can see the potential for its use BUT I need a LOT more practice and study
-+ I need to better plan my naming conventions for classes and ids. I kept losing track of what I was trying to style becasue of poor name choice.
++ I need to better plan my naming conventions for classes and ids. I kept losing track of what I was trying to style because of poor name choice.
 
-## Follow-on Actions
+## Follow-On Actions
+### Outstanding Issues
++ Add missing fieldset
++ Remove redundant navigation links
+
+### Three Lessons to Apply Next Time
++ Use temporary borders when styling.
++ Plan class and id names before writing code - sketch the divs out on paper and define their purpose.
++ Continue to experiment and explore but set a time limit of 1 hour. If I can't solve a problem it within the hour, use a backup.
 
 ## Credits
 ### Code
