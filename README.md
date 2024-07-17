@@ -92,7 +92,7 @@ This website is responsive for all screen sizes.
 
     *Process section*
 
-    Each section has font faces and colour schemes consistant with those already introduced. Line spacing is also consistant. The slight differences in styling from one section to another - red font within Principles and numbered list with green font within Process - enables the user to visually distinguish one section from another.
+    Each section has font faces and colour schemes consistant with those already introduced. Line spacing is also consistant. The slight differences in styling from one section to another - red font within Principles and a numbered list with green font within Process - enables the user to visually distinguish one section from another.
 
 + **Metaphor Images** - This page also includes a number of metaphor images. These images continue to build the Garden theme and provide visual representations of the ideas described. The lantern acts as a guiding light to represent principles. The two chairs surrounded by utensils represents two people sitting together to plan their process. The ladder represents beginning work and moving upwards out of debt. As users select the Principles and Process internal navigation links, the page will jump to the metaphor image preceeding the text.
 
@@ -109,8 +109,31 @@ This website is responsive for all screen sizes.
     *Ladder - get to work metaphor*
 
 ### Resources Page
-+ Signup Form
-+ External Links
++ **Signup Form** - This page gives users the opportunity to complete a form and sign-up for a newsletter. The form includes:
+    - Required text fields for first and last names
+    - Required email field
+    - Required debt status radio button selector
+    - Submit button syled with 'Sign Up' text
+
+    All the form elements are labeled and the first option in the set of radio buttons is pre-selected to teach users what to do. The translucent backround and submit button have been syled in keeping with the website's colour palette.
+
+    <img src="assets/screenshots/form.png" alt="form screenshot">
+
+    *Form on screen sizes between 400px and 768px*
+ 
++ **External Links** - This page also gives users the opportunity to quickly access external resources that may be useful when managing debt. These resources are categorised as follows:
+    - **Budgeting** - links to videos and text-based resources on how to budget
+    - **Motivation** - links to a video playlist of people telling thier debt stories and a website made by someone who removed debt from thier life
+    - **Community** - links to online forums populated by others working thier way out of debt
+    - **Legal** - links to websites that provide information about debt and the law
+
+    The links section appears within a transluscent backgound to match that of the form. The links change colour when hovered over with a cursor on larger screen sizes. The colour this time, however, is a shade of green rather than beige. This allows for sufficeinet contrast between the base font colour and the hover colour and keeps the styling within a consistant colour palette. All of the links will open in a new tab and are aria labelled for accessibility purposes.
+
+    <img src="assets/screenshots/from_and_links.png" alt="form and links screenshot">
+
+    *Form and links sections on screen sizes above 768px*
+
++ **Metaphor Images** - Depending on the screen size used, users will see either on or two metaphore images. On screen sizes up to 768px
 
 ## Dev Steps
 ### strategy
