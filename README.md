@@ -151,7 +151,7 @@ The purpose of the Strategy step is to understand, at a high level, what it is w
 
 ## Testing
 
-This website employed a mixture of both in-process testing and appraisals of the finished product. Testing made use of both quantitative and qualitative methods. In-process testing was used to inform design decisions for both styling and website functionality. Appraislas were used to confirm that the website met with criteria for Accessibility, Performance, Best Practice, SEO and Validation. Full appraisal results are detailed below along with a sample of in-process test results, bugs found and fixes deployed.
+This project employed both in-process testing and appraisals of the finished product. Testing made use of both quantitative and qualitative methods. In-process testing was used to inform design decisions for both styling and website functionality. Appraislas were used to confirm that the website met with criteria for Accessibility, Performance, Best Practice, SEO and Validation. Full appraisal results are detailed below along with a sample of in-process test results, bugs found and fixes deployed.
 
 ### Appraisal
 + Lighthouse - The following images show Lighthouse test results for each page of the deployed website. The testing was done on Google Chrome using Ingognito mode.
@@ -194,16 +194,21 @@ This website employed a mixture of both in-process testing and appraisals of the
 
     *Functionality test results*
 
-+ Conclusions - The Lighthouse test results show green across the board for Performance, Accessibility, Best Practices and SEO, with 100% score for each page for everthing other than Performance.
+#### Conclusions
+
++ The Lighthouse test results show green across the board for Performance, Accessibility, Best Practices and SEO, with 100% score for each page for everthing other than Performance.
+
 + The WAVE test results showed the same error and alert for each page relating to:
     - Error - empty form label used in the navigation menu toggle
     - Alert - redundant links occurring from copying and pasting navigation HTML from one page to another
 
-    The WAVE test results for the Resources page showed additional alerts relating to:
++ The WAVE test results for the Resources page showed additional alerts relating to:
     - Alert - missing fieldset on the form
     - Alert - turning on synchnised captioning for YouTube videos accessed via the Debt Deliverance website
 
++ The validation testing and functionality testing showed that the website code is clean and that the funcional elements are sound.
 
+The full appraisal shows that the website is fit-for-purpose. The bugs identified during the WAVE testing are addressed in the upcoming section.
 
 ### In-process
 ### bugs
