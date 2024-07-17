@@ -135,7 +135,12 @@ This website is responsive for all screen sizes.
 
 + **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphore images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign-up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
 
-## Dev Steps
+## Development Steps
+The website was developed using the five planes of User Centred Design (UCD). UCD focuses on designing products that are useful, usable and valuable, that create a positive emotional response. This was the challenge. 
+
+The sections below detail the five planes on UCD and how they were applied within the Debt Deliverance Website development process.
+
+
 ### strategy
 ### scope
 ### structure
