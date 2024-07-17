@@ -154,6 +154,57 @@ The purpose of the Strategy step is to understand, at a high level, what it is w
 This website employed a mixture of both in-process testing and appraisals of the finished product. Testing made use of both quantitative and qualitative methods. In-process testing was used to inform design decisions for both styling and website functionality. Appraislas were used to confirm that the website met with criteria for Accessibility, Performance, Best Practice, SEO and Validation. Full appraisal results are detailed below along with a sample of in-process test results, bugs found and fixes deployed.
 
 ### Appraisal
++ Lighthouse - The following images show Lighthouse test results for each page of the deployed website. The testing was done on Google Chrome using Ingognito mode.
+
+    <img src="assets/screenshots/testing_welcome.png" alt="welcome page lighthouse results">
+
+    *Lighthouse test results for the Welcome page*
+
+    <img src="assets/screenshots/testing_steps.png" alt="steps page lighthouse results">
+
+    *Lighthouse test results for the Steps page*
+
+    <img src="assets/screenshots/testing_resources.png" alt="resources page lighthouse results">
+
+    *Lighthouse test results for the Resources page*
+
++ WAVE - The following images show Web Accessibility Evaluation Tool (WAVE) test results for each page of the deployed website. The testing was done on Google Chrome using Ingognito mode.
+
+    <img src="assets/screenshots/testing_wave_welcome.png" alt="welcome page wave results">
+
+    *WAVE test results for the Welcome page*
+
+    <img src="assets/screenshots/testing_wave_steps.png" alt="steps page wave results">
+
+    *WAVE test results for the Steps page*
+
+    <img src="assets/screenshots/testing_wave_resources.png" alt="resources page wave results">
+
+    *WAVE test results for the Resources page*
+
++ Validation - The HTML code for each page was validated using the World Wide Web Consortium (W3C) online checking service. Each page passed with no errors or warnings. The CSS code was validated using W3C Validation Service - Jigsaw and passed with no error found.
+
+    <img src="assets/screenshots/css_validation.png" alt="css validation screenshot">
+
+    *CSS validation results*
+
++ Functionality - the following screenshot shows website functionality testing results captured in a Word document:
+
+    <img src="assets/screenshots/testing_functionality.png" alt="functionality test results screenshot">
+
+    *Functionality test results*
+
++ Conclusions - The Lighthouse test results show green across the board for Performance, Accessibility, Best Practices and SEO, with 100% score for each page for everthing other than Performance.
++ The WAVE test results showed the same error and alert for each page relating to:
+    - Error - empty form label used in the navigation menu toggle
+    - Alert - redundant links occurring from copying and pasting navigation HTML from one page to another
+
+    The WAVE test results for the Resources page showed additional alerts relating to:
+    - Alert - missing fieldset on the form
+    - Alert - turning on synchnised captioning for YouTube videos accessed via the Debt Deliverance website
+
+
+
 ### In-process
 ### bugs
 
