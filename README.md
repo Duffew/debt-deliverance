@@ -82,7 +82,7 @@ This website is responsive for all screen sizes.
 
     <img src="assets/screenshots/behaviour.png" alt="behaviour sections screenshot">
 
-    *Behavoir section*
+    *Behaviour section*
 
     <img src="assets/screenshots/principles.png" alt="principles section screenshot">
 
@@ -136,14 +136,11 @@ This website is responsive for all screen sizes.
 + **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphor images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign-up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
 
 ## Development Steps
-The website was developed using a mobile-first approach coupled with the five planes of User Centred Design (UCD). UCD focuses on designing products that are useful, usable and valuable, that create a positive emotional response. This was the challenge. 
+The website was developed using a mobile-first approach coupled with the five planes of User Centred Design (UCD). 
 
 The sections below detail the five planes on UCD and how they were applied within the Debt Deliverance Website development process.
 
-
 ### Strategy
-
-The purpose of the Strategy step is to understand, at a high level, what it is we want to achieve. In my instance, I wanted to develop a website that would act as a first port of call for someone struggling with debt. Some basic research showed that internet traffic 
 ### scope
 ### structure
 ### skeleton
@@ -279,31 +276,56 @@ The website was developed using the GitPod Integrated Development Environment (I
 The git reset command was used early in development to revert to an earlier version after losing control of CSS changes and a misunderstanding about how Chrome Developer Tools renders website content.
 
 ## Technologies Used
-### languages
-html
-css
-### frameworks, libraries, programmes
-git
-github
-google fonts
-font awsome
-unsplash
-pexels
-image compressor
-image converter
-image resize
-color picker
-palette picker
-favicon generator
+### Languages
++ HTML
++ CSS
 
-## Credits
-### code
-### content
-all written by the developer
-### media
-photos
-### acknowledgements
+### Libraries & Online Resources Used
++ GitPod was used for code editing and version control
++ GitHub was used to store code and manage deployment of the website
++ Google Fonts was used import the 'Montserrat' font family
++ Font Awesome was used to add icons to the social media links
++ Unsplash was used to source royalty free images for the website
++ Pexels was used to source royalty free images for the website
++ cloudconvert.com was used to convert jpg image formats to webp
++ compress2go.com was used to compress images
++ resizepixel.com was used to resize images
++ mycolor.space was used to generate colour palettes
++ icons8.com was used to generate the favicon
+
 
 ## Lessons
+This section includes a list of lessons learned during this project in no particualr order:
++ Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implimented. The text based logo works has the same value with far less effort.
++ Putting temporary borders or background colours around divs really helps - I was struggling with sizing the two divs on the resources page until I put a black border around them so that I could see what I was trying to style. See below for an example:
+
+    <img src="assets/screenshots/divs_with_borders.png" alt="divs with borders image">
+
++ Chrome Dev Tools is very powerful BUT I need a lot more practice
++ I need to set time limits on trying out new things. Trying to fix the Path image issue took a a lot of time and I eventually had to draw a line under it. The same with designing an unused logo. The time wasn't totally wasted as I learned, but I lost time in terms of getting the project complete. Don't let perfect be the enemy of good.
++ Flexbox - I can see the potential for its use BUT I need a LOT more practice and study
++ I need to better plan my naming conventions for classes and ids. I kept losing track of what I was trying to style becasue of poor name choice.
 
 ## Follow-on Actions
+
+## Credits
+### Code
++ The code for the mobile navigation toggle, hero image text overlay, social media icons styling and signup form were derived from the Code Institute Love Running Walkthrough project and has been acknowledged with comments within the code.
+### Content
++ All text content was written by the developer.
+### Media
+#### Welcome Page
++ Flower Image - Photo by Valeria Boltneva - Pexels
+#### Steps Page
++ Bridge Image - Photo by Snapwire - Pexels
++ Lantern Image - Photo by Jesson Mata - Unsplash
++ Chairs Image - Photo by Nadine Ginzel - Pexels
++ Ladder Image - Photo by Pixabay - Pexels
+#### Resources Page
++ Path Image - Gavin McGruddy - Unsplash
++ Seedling Image - Akil Mazumder - Pexels
+### Acknowledgements
++ My wife for suggestions, coffee and cuddles!
++ My friends who graciously found time in their busy schedules to act as a User Group. Clive Day and Caroline Essex are awesome! Thank you both!
++ My mentor Spencer Barriball for advice, guidance and fire-fighting!
+
