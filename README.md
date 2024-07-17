@@ -150,10 +150,11 @@ The purpose of the Strategy step is to understand, at a high level, what it is w
 ### surface
 
 ## Testing
-
 This project employed both in-process testing and appraisals of the finished product. Testing made use of both quantitative and qualitative methods. In-process testing was used to inform design decisions for both styling and website functionality. Appraislas were used to confirm that the website met with criteria for Accessibility, Performance, Best Practice, SEO and Validation. Full appraisal results are detailed below along with a sample of in-process test results, bugs found and fixes deployed.
 
 ### Appraisal
+Appraisal testing adopted a quatitative approcach with a strong emphasis on Lighthouse assessemnt criteria. WAVE testing was also applied as was validation and manual functionality checks.
+
 + Lighthouse - The following images show Lighthouse test results for each page of the deployed website. The testing was done on Google Chrome using Ingognito mode.
 
     <img src="assets/screenshots/testing_welcome.png" alt="welcome page lighthouse results">
@@ -195,7 +196,6 @@ This project employed both in-process testing and appraisals of the finished pro
     *Functionality test results*
 
 #### Conclusions
-
 + The Lighthouse test results show green across the board for Performance, Accessibility, Best Practices and SEO, with 100% score for each page for everthing other than Performance.
 
 + The WAVE test results showed the same error and alert for each page relating to:
@@ -211,7 +211,49 @@ This project employed both in-process testing and appraisals of the finished pro
 The full appraisal shows that the website is fit-for-purpose. The bugs identified during the WAVE testing are addressed in the upcoming section.
 
 ### In-process
-### bugs
+In-process testing involved a mixture of quantitative and qualitative testing. This testing was used to:
+- Inform on website styling and functionality
+- Identify bugs and other areas of substandard performance
+
+Whilst it is beyond the scope of this README to reference every bug and every fix identified as part of the development process, the following examples are indicitive of the in-process quality methods employed.
+
+#### Checking Website Feel
+Early in the development cycle, two of my friends and my wife agreed to act as a User Group for my project. As part of discussing the planes of Strategy and Scope with them, I explained what I was hoping to acheive. After putting together the first page for early deployment, I received the following feedback:
+
+<img src="assets/screenshots/user_feedback_feel.png" alt="User Group feedback screenshot">
+
+This feedback gave me confidence that the colour palette was suitable and that the garden theme for the site was worth pursuing.
+
+#### Checking the Form
+
+After deploying the remaining pages, a member of the User Group noted:
+
+<img src="assets/screenshots/user_feedback_form.png" alt="User Group feedback screenshot">
+
+This feedback gave me further confidence that the the feel of the site was correct and that there was a bug in the HTML for the form.
+
+#### The Path Metaphor Image
+
+Styling the Path metaphor image for larger screens was an area of considerable difficulty. Using the Lighthouse assessmnet tool repeataedly showed that perfomance dropped well below 90% when using an enlarged version as my single background image. After attempting a number of fixes, I ultimatly rejected this image in favour of the seedling image in order to protect page performance.
+
+This and the other examples described serve to illustrate how in-process testing was used to give guidance on how the project was progressing and indicate when it was time to make a change. 
+
+### Bugs & Fixes
+Both the in-process checks and appraisals served to identify bugs. This section describes a small selection of issues and thier resolution.
+
++ Radio button bug - This bug identfied by the User Group was a result of an error in the HTML code. I had incorrectly given each radio button their own unique name attribute. This was identified by checking a similar issue on Stack Overflow. The solution, also described on Stack Overflow, was to give each button the same name attribute. Result: Fixed
+
++ The Path metaphore image - This bug, described above, relates to image sizes and their impact on performance as measureed by Lighthouse. The unedited size of the file was 3.27mb with dimensions of 2736 x 3648 pixels. This was far larger than required for the page. Learning from the experience of working with images on the previous pages, I knew I could make some adjustments to make the image more manageable. After lots of Google searches, I attempted the following:
+
+    - Compress the image - unsucsessful
+    - Convert the image to webp - unsuccessful
+    - Resize the image to a max-width of 1100 pixles (enough to fill a wrapper conatiner) - unsuccessful
+    - All combinations of - Compress --> convert ---> resize - unsucsesful
+    - Use media queries to explicitly state the max-width at each screen interval - unsuccessful
+
+    After around three hours of attempting to fix this issue, I was able to get the file size down to around 300mb. Whilst a 90% reduction in file size, the image still left the page with a sub 90% peefomance metric. At this point I resolved to change direction in order to not lose more time. Result: feature change
+
++ Missing fieldset - The WAVE testing conducted as part of the appraisal highlighted a missing fieldset from the form. This is an example of a bug that I decided to leave in the code. The fieldset is not essentail to the running of the site and a user would be unlikly to know that it is missing. The effort required to reopen the code, add more HMTL, retest and then revalidate would outweigh the benefit of doing so. This issue and others with similar cost/benefit relationship are included in follow-on action recommendations. Result: follow-on action
 
 ## Deployment Steps
 ### GitHub pages
