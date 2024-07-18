@@ -198,9 +198,22 @@ Not included in this project:
 + Provide templates for debt management
 + Join a community of other visitors
 
+### Structure
+With scope identified, the Structure plane involved the following considerations
++ Interaction Design
++ Information Architecture
 
+#### Interaction Design
+When designing features for the site, I kept the following concerns in mind. Interactions needed to be:
++ Consistent - use established conventions for layout and navigation and ensure internal consistency from one page to another - examples: navigation toggle for mobiles; consistent styling across the site
++ Predictable - Does the user know where they are? What they can do? Where they can go? - examples: different font colour for current page in navigation menu; navigation menu listing other pages; clear headings on each page to introduce sections; changes of colour when hovering with a curser
++ Learnable - the website should be intuitive - examples: the website behaves the same on each page
++ Visible - the features on the site should be easy to see and distinguish from each other - examples: form vs the references, large and different images introducing each page
++ Feedback - clearly visible changes in style when interaction occurs - examples: signup form submit button changes colour when hovered and flashes when clicked
 
-### structure
+#### Information Architecture
+For a website with the above scope, a three-page tree-structure would be sufficient. From both a development and user perspective, this would keep the site simple to design (being my first project) and simple to navigate (avoids the risk of the site detracting from the message).
+
 ### skeleton
 ### surface
 
