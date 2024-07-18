@@ -275,6 +275,8 @@ Appraisal testing adopted a quantitative approach with a strong emphasis on Ligh
 
 + The validation and functionality testing showed that the website code is clean and that the functional elements are sound.
 
++ The website was checked and worked on Chrome, Edge, Firefox and Safari web browsers.
+
 The full appraisal shows that the website is fit-for-purpose. The bugs identified during the WAVE testing are addressed in the upcoming section.
 
 ### In-process
