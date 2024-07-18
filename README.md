@@ -141,6 +141,50 @@ The website was developed using a mobile-first approach coupled with the five pl
 The sections below detail the five planes on UCD and how they were applied within the Debt Deliverance Website development process.
 
 ### Strategy
+As part of the Strategy plane, I began by trying to get some broad answers to the following questions:
++ What is worth doing?
++ What value will it add?
++ What am I able to do?
+
+Given the recent rises in interest rates, there has been a glut of media articles highlighting the struggles that people are facing as they try to manage their debts. Having decided on a debt-free life about 20 years ago after struggling myself, I settled on a lifehacks website aimed a people looking to become free.
+
+#### Is it worth doing?
++ [The Money Charity](https://themoneycharity.org.uk/money-statistics/#:~:text=UK%20Personal%20Debt,including%20mortgages%2C%20was%20%C2%A365%2C143.) website states that average UK household debt in the UK stands at around £65,000. Average unsecured debt per person is around £4,200 with an average annual interest payment of close to £1,500.
++ In April 2024, the [FT Adviser](https://www.ftadviser.com/mortgages/2024/04/04/mortgage-defaults-expected-to-surge-22-over-next-year/) forecast that mortgage defaults are expected to rise by 22% over the next 12 months.
++ The personal finance guru and debt-free-life advocate, US based Dave Ramsey owns a [website](https://www.ramseysolutions.com/) that has around [7.3 million](https://neilpatel.com/website-traffic-checker/) organic visits each month.
+
+There is a demand for websites that offer personal finance guidance, and with debt levels increasing, a site dedicated to assisting those in need would seem to worth exploring
+
+#### What value will it add?
+Who is currently helping in the UK? A basic search for debt help UK yields first page search results that include:
++ [Money Helper UK](https://www.moneyhelper.org.uk/en/money-troubles/dealing-with-debt/options-for-clearing-your-debts-england-and-wales) - a wall of text detailing formal debt management arrangements, organised through an intermediary
++ [gov.uk](https://www.gov.uk/debt-advice) - a wall of text detailing links to other organisations
++ [Citizen's Advice](https://www.citizensadvice.org.uk/debt-and-money/help-with-debt/dealing-with-your-debts/collecting-information-about-your-debts/) - a page detailing links to other pages which become walls of text
+
+Other websites continue in a similar vein. Lots of text detailing practical but formalised steps involving management agreements or bankruptcy procedures.
+
+What is missing is a website that:
++ Recognises that people in debt are often overwrought and tries to address that immediatley
++ Challenges people in debt to look at their behaviour as part of the solution to debt
+
+These holes became starting points for requirements for my website that could add value to the personal finance space.
+
+#### What am I able to do?
+
+Below is a screenshot taken from my project notes showing a list of potential requirements, their importance and feasibility given my project resources.
+
+<img src="assets/screenshots/opp_table.png" alt="opportunity table">
+
+The calculation showed that I should not attempt to deliver every requirement and that I would need to prioritise.
+
+Plotting these requirements onto a Trade-off Matrix showed that I should discard items 4 and 7 and only do 5 if time allowed. See the screenshot of my hand-written notes below.
+
+<img src="assets/screenshots/tradeoff_matrix.png" alt="screenshot of a trade-off matrix">
+
+The results of this Strategy plane exerise informed the scope of the project.
+
+
+
 ### scope
 ### structure
 ### skeleton
