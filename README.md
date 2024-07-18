@@ -183,9 +183,23 @@ Plotting these requirements onto a Trade-off Matrix showed that I should discard
 
 The results of this Strategy plane exerise informed the scope of the project.
 
+### Scope
+The scope of the project, derived from the Strategy plane became:
++ Provide a hopeful message for people struggling with debt
++ Outline desirable behaviour for tackling debt
++ Provide practical steps to follow
++ Direct visitors to other resources
++ Sign up for an email list
+
+Additional requirements if time permitted:
++ Provide wider context for getting out of debt as part of the financial journey
+
+Not included in this project:
++ Provide templates for debt management
++ Join a community of other visitors
 
 
-### scope
+
 ### structure
 ### skeleton
 ### surface
