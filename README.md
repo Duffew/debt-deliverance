@@ -33,7 +33,7 @@ This website is responsive for all screen sizes.
         
     *Logo and navigation bar on larger screens*
 
-    On devices with the full navigation bar displayed, page names change colour when the user hovers with a mouse.
+    On devices with the full navigation bar displayed, page names change colour when the user hovers with a cursor.
 
 + **Hero Image** - The Welcome page opens with a large image of a flower. The purpose is to greet a visitor with a calming picture that puts users in mind of a garden. The overlay text uses level 2 headings to clearly articulate the purpose of the website.
 
@@ -109,7 +109,7 @@ This website is responsive for all screen sizes.
     *Ladder - get to work metaphor*
 
 ### Resources Page
-+ **Signup Form** - This page gives users the opportunity to complete a form and sign-up for a newsletter. The form includes:
++ **Signup Form** - This page gives users the opportunity to complete a form and sign up for a newsletter. The form includes:
     - Required text fields for first and last names
     - Required email field
     - Required debt status radio button selector
@@ -133,12 +133,12 @@ This website is responsive for all screen sizes.
 
     *Form and links sections on screen sizes above 768px*
 
-+ **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphor images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign-up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
++ **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphor images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
 
 ## Development Steps
 The website was developed using a mobile-first approach coupled with the five planes of User Centred Design (UCD). 
 
-The sections below detail the five planes on UCD and how they were applied within the Debt Deliverance Website development process.
+The sections below detail the five planes of UCD and how they were applied within the Debt Deliverance Website development process.
 
 ### Strategy
 As part of the Strategy plane, I began by trying to get some broad answers to the following questions:
@@ -153,7 +153,7 @@ Given the recent rises in interest rates, there has been a glut of media article
 + In April 2024, the [FT Adviser](https://www.ftadviser.com/mortgages/2024/04/04/mortgage-defaults-expected-to-surge-22-over-next-year/) forecast that mortgage defaults are expected to rise by 22% over the next 12 months.
 + The personal finance guru and debt-free-life advocate, US based Dave Ramsey owns a [website](https://www.ramseysolutions.com/) that has around [7.3 million](https://neilpatel.com/website-traffic-checker/) organic visits each month.
 
-There is a demand for websites that offer personal finance guidance, and with debt levels increasing, a site dedicated to assisting those in need would seem to worth exploring
+There is a demand for websites that offer personal finance guidance, and with debt levels increasing, a site dedicated to assisting those in need would seem worth exploring
 
 #### What value will it add?
 Who is currently helping in the UK? A basic search for debt help UK yields first page search results that include:
@@ -207,7 +207,7 @@ With scope identified, the Structure plane involved the following considerations
 When designing features for the site, I kept the following concerns in mind. Interactions needed to be:
 + Consistent - use established conventions for layout and navigation and ensure internal consistency from one page to another - examples: navigation toggle for mobiles; consistent styling across the site
 + Predictable - Does the user know where they are? What they can do? Where they can go? - examples: different font colour for current page in navigation menu; navigation menu listing other pages; clear headings on each page to introduce sections; changes of colour when hovering with a curser
-+ Learnable - the website should be intuitive - examples: the website behaves the same on each page
++ Learnable - the website should be intuitive - examples: the website behaves the same on each page; pre-selected radio button option
 + Visible - the features on the site should be easy to see and distinguish from each other - examples: form vs the references, large and different images introducing each page
 + Feedback - clearly visible changes in style when interaction occurs - examples: signup form submit button changes colour when hovered and flashes when clicked
 
@@ -328,7 +328,7 @@ Deployment was managed on GitHub by using the following steps:
 1. Go to the 'settings' tab within the GitHub Debt Deliverance repo
 2. Select 'pages' from the code and automation section
 3. Ensure that:
-    - source is set to ''deploy from branch'
+    - source is set to 'deploy from branch'
     - main branch is selected
     - folder is set to 'root'
 4. Under 'branch', select 'save'
@@ -341,7 +341,7 @@ The website was developed using the GitPod Integrated Development Environment (I
 
 + git add . - used to add updates to the staging area ready for committal to the queue
 + git commit -m "comment" - used to commit updates to the repo queue
-+ git push - used to send updates to the reop on GitHub
++ git push - used to send updates in the queue to the reop on GitHub
 
 The git reset command was used early in development to revert to an earlier version after losing control of CSS changes and a misunderstanding about how Chrome Developer Tools renders website content.
 
@@ -362,11 +362,17 @@ The git reset command was used early in development to revert to an earlier vers
 + resizepixel.com was used to resize images
 + mycolor.space was used to generate colour palettes
 + icons8.com was used to generate the favicon
++ W3.org was used to validate the HTML code
++ jigsaw.w3.org was used to validate the CSS code
++ Chrome Developer Tools was used monitor development and preview changes
++ Lighthouse was used to assess performance, accessibility, best practices and SEO metrics
++ wave.webaim.org was used to check enhanced accessibility metrics
+
 
 
 ## Lessons
 This section includes a list of lessons learned during this project in no particular order:
-+ Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implemented. The text-based logo works has the same value with far less effort.
++ Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implemented. The text-based logo works has a similar value with far less effort.
 + Putting temporary borders or background colours around divs really helps - I was struggling with sizing the two divs on the resources page until I put a black border around them so that I could see what I was trying to style. See below for an example:
 
     <img src="assets/screenshots/divs_with_borders.png" alt="divs with borders image">
@@ -384,7 +390,7 @@ This section includes a list of lessons learned during this project in no partic
 ### Three Lessons to Apply Next Time
 + Use temporary borders when styling.
 + Plan class and id names before writing code - sketch the divs out on paper and define their purpose.
-+ Continue to experiment and explore but set a time limit of 1 hour. If I can't solve a problem it within the hour, use a backup.
++ Continue to experiment and explore but set a time limit of 1 hour. If I can't solve a problem within the hour, use a backup.
 
 ## Credits
 ### Code
