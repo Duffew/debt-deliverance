@@ -243,8 +243,15 @@ My primary objective for navigation design was progressive disclosure. I wanted 
 
 I decided, in an effort to keep the navigation styling simple and promote calm, to reserve metaphor for the images and avoid them for navigation. The exception to this being the social media links where the icons are well understood. Icons are a great way to convey concepts but in this instance, I wanted to limit any posibility of confusion in the user's mind.
 
+### Surface
+In developing the visual language for the websste, the foremost consideration was calm and garden. These characteristics manifested in the following ways:
++ Green colour palette
++ Garden metaphor images
++ Wide line spacing
++ Transition properties for hover rules
++ Font choice - Montserrat
 
-### surface
+The most important elements on each page always appeared first, and the pages were designed to be legible with appropriate colour contrast between text and background.
 
 ## Testing
 This project employed both in-process testing and appraisals of the finished product. Testing made use of both quantitative and qualitative methods. In-process testing was used to inform design decisions for both styling and website functionality. Appraisals were used to confirm that the website met with criteria for Accessibility, Performance, Best Practice, SEO and Validation. Full appraisal results are detailed below along with a sample of in-process test results, bugs found and fixes deployed.
