@@ -222,7 +222,7 @@ The Skeleton plane was concerned with the following elements:
 #### Interface Design
 When designing the website interface, a key objective was to establish a feeling of calm in the user. People in debt are often under emotional strain and I wanted the website to generate a positive emotional response. Immediately, this put me in mind of news articles about people in debt, and the ubiquitous image of someone with their head in their hands looking at papers. I did not want the website to be a mirror of the user, rather a place of hope.
 
-The User Group all suggested green as a base palette colour, which then triggered the idea of having a conversation about debt in a garden. Gardens are synonymous with relaxation and growth. Many times in my own life, I have sought advice from family and friends whilst chatting in a garden. The overarching metaphor for the website became giving advice about debt whilst taking a stroll through a garden.
+The members of the User Group all suggested green as a base palette colour, which then triggered the idea of having a conversation about debt in a garden. Gardens are synonymous with relaxation and growth. Many times in my own life, I have sought advice from family and friends whilst surrounded by greenery. The overarching metaphor for the website became giving advice about debt whilst taking a stroll through a garden.
 
 I made use of a number of wireframe mock-ups to help me visualise how the functional elements of the page might look on different devices. A sample of these lo-fi, hand-drawn illustrations are detailed below.
 
@@ -239,7 +239,9 @@ I made use of a number of wireframe mock-ups to help me visualise how the functi
 *Hand-drawn wiferframe for the Resources page on laptops*
 
 #### Navigation Design
+My primary objective for navigation design was progressive disclosure. I wanted to keep the landing page simple and welcoming, with a large image to set the tone and a brief description as to what the website was about. The next page would provide the detail and use internal navigation to help returning users in particular. The last page would then direct the users onwards. The website would then read like a book utilising a front cover, structured content and a back cover.
 
+I decided, in an effort to keep the navigation styling simple and promote calm, to reserve metaphor for the images and avoid them for navigation. The exception to this being the social media links where the icons are well understood. Icons are a great way to convey concepts but in this instance, I wanted to limit any posibility of confusion in the user's mind.
 
 
 ### surface
