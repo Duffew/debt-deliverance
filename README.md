@@ -11,7 +11,7 @@ Users of this website will find:
 
 This website is responsive for all screen sizes.
 
-<img src="assets/screenshots/Screenshot-2024-07-16 083300.png" alt="Screenshot of the Debt Deliverance landing page on different devices">
+<img src="screenshots/Screenshot-2024-07-16 083300.png" alt="Screenshot of the Debt Deliverance landing page on different devices">
 
 ## Features
 
@@ -21,15 +21,15 @@ This website is responsive for all screen sizes.
 
 + **Navigation Bar** - On screens up to a width of 768 pixels, the navigation bar can be toggled by selecting the burger icon in the top right. On screens above 768 pixels, the page names are displayed. On all devices the current page is indicated using red font colour.
     
-    <img src="assets/screenshots/mobile_logo_menu.png" alt="Logo and menu icon for small screens"> 
+    <img src="screenshots/mobile_logo_menu.png" alt="Logo and menu icon for small screens"> 
         
     *Mobile logo and menu icon*
         
-    <img src="assets/screenshots/mobile_menu_open.png" alt="Mobile navigation menu open"> 
+    <img src="screenshots/mobile_menu_open.png" alt="Mobile navigation menu open"> 
         
     *Mobile menu toggled open*
 
-    <img src="assets/screenshots/large_screen_navbr.png" alt="Logo and navigation bar for larger screens"> 
+    <img src="screenshots/large_screen_navbr.png" alt="Logo and navigation bar for larger screens"> 
         
     *Logo and navigation bar on larger screens*
 
@@ -37,7 +37,7 @@ This website is responsive for all screen sizes.
 
 + **Hero Image** - The Welcome page opens with a large image of a flower. The purpose is to greet a visitor with a calming picture that puts users in mind of a garden. The overlay text uses level 2 headings to clearly articulate the purpose of the website.
 
-    <img src="assets/screenshots/hero_image.png" alt="Screenshot of the website's hero image"> 
+    <img src="screenshots/hero_image.png" alt="Screenshot of the website's hero image"> 
         
     *Hero image with text overlay*
 
@@ -47,8 +47,8 @@ This website is responsive for all screen sizes.
     - **Have hope** - provide a hopeful message and list the steps of a breathing exercise to help users relax
     - **Let's begin** - provide direction for using the rest of the website
 
-    <img src="assets/screenshots/welcome_page1.png" alt="Welcome page text screenshot 1">
-    <img src="assets/screenshots/welcome_page2.png" alt="Welcome page text screenshot 2">
+    <img src="screenshots/welcome_page1.png" alt="Welcome page text screenshot 1">
+    <img src="screenshots/welcome_page2.png" alt="Welcome page text screenshot 2">
 
     *Welcome page paragraphs*
 
@@ -56,20 +56,20 @@ This website is responsive for all screen sizes.
 
 + **Footer** - The footer contains links to popular social media websites. Each link opens in a new tab and is aria labelled for accessibility purposes. These icons follow the same hover rules as the main navigation links.
 
-    <img src="assets/screenshots/footer.png" alt="footer screenshot">
+    <img src="screenshots/footer.png" alt="footer screenshot">
 
     *Footer showing social media links*
 
 ### Steps Page
 + **Bridge Metaphor Image** - The image of the bridge provides visual clarification that the user is on a new page. The bridge is in a garden, building on the Garden theme established with the Welcome page. The bridge also represents crossing over from one place to another. As the user follows the steps to get out of debt, they too should cross a divide. The red font highlighting the user's current page was colour picked from this image to provide consistency.
 
-    <img src="assets/screenshots/bridge.png" alt="bridge image screenshot">
+    <img src="screenshots/bridge.png" alt="bridge image screenshot">
 
     *Screenshot of the Bridge metaphor image*
 
 + **Internal Navigation** - To aid the user in moving around the page, internal navigation links have been provided beneath the metaphor image. These links use upper case lettering to distinguish them from the main site navigation links. The font face and colour match that of the sections to which they relate. The links obey the same hover rules as the other navigation links.
 
-    <img src="assets/screenshots/internal_nav_links.png" alt="internal navigation screenshot">
+    <img src="screenshots/internal_nav_links.png" alt="internal navigation screenshot">
 
     *Internal navigation links*
 
@@ -80,15 +80,15 @@ This website is responsive for all screen sizes.
 
     The purpose to these sections is to promote a behaviour shift by encouraging a principles-based approach to getting out of debt.
 
-    <img src="assets/screenshots/behaviour.png" alt="behaviour sections screenshot">
+    <img src="screenshots/behaviour.png" alt="behaviour sections screenshot">
 
     *Behaviour section*
 
-    <img src="assets/screenshots/principles.png" alt="principles section screenshot">
+    <img src="screenshots/principles.png" alt="principles section screenshot">
 
     *Principles sections*
 
-    <img src="assets/screenshots/process.png" alt="process section screenshot">
+    <img src="screenshots/process.png" alt="process section screenshot">
 
     *Process section*
 
@@ -96,15 +96,15 @@ This website is responsive for all screen sizes.
 
 + **Metaphor Images** - This page also includes a number of metaphor images. These images continue to build the Garden theme and provide visual representations of the ideas described. The lantern acts as a guiding light to represent principles. The two chairs surrounded by utensils represents two people sitting together to plan their process. The ladder represents beginning work and moving upwards out of debt. As users select the Principles and Process internal navigation links, the page will jump to the metaphor image preceding the text.
 
-    <img src="assets/screenshots/lantern.png" alt="lantern"> 
+    <img src="screenshots/lantern.png" alt="lantern"> 
         
     *Lantern - principles metaphor*
 
-    <img src="assets/screenshots/chairs.png" alt="chairs"> 
+    <img src="screenshots/chairs.png" alt="chairs"> 
         
     *Chairs - process metaphor*
 
-    <img src="assets/screenshots/ladder.png" alt="ladder"> 
+    <img src="screenshots/ladder.png" alt="ladder"> 
         
     *Ladder - get to work metaphor*
 
@@ -117,7 +117,7 @@ This website is responsive for all screen sizes.
 
     All the form elements are labelled and the first option in the set of radio buttons is pre-selected to teach users what to do. The translucent background and submit button have been styled in keeping with the website's colour palette.
 
-    <img src="assets/screenshots/form.png" alt="form screenshot">
+    <img src="screenshots/form.png" alt="form screenshot">
 
     *Form on screen sizes between 400px and 768px*
  
@@ -129,7 +129,7 @@ This website is responsive for all screen sizes.
 
     The links section appears within a translucent background to match that of the form. The links change colour when hovered over with a cursor on larger screen sizes. The colour this time, however, is a shade of green rather than beige. This allows for sufficient contrast between the base font colour and the hover colour and keeps the styling within a consistent colour palette. All of the links will open in a new tab and are aria labelled for accessibility purposes.
 
-    <img src="assets/screenshots/from_and_links.png" alt="form and links screenshot">
+    <img src="screenshots/from_and_links.png" alt="form and links screenshot">
 
     *Form and links sections on screen sizes above 768px*
 
@@ -173,13 +173,13 @@ These holes became starting points for requirements for my website that could ad
 
 Below is a screenshot taken from my project notes showing a list of potential requirements, their importance and feasibility given my project resources.
 
-<img src="assets/screenshots/opp_table.png" alt="opportunity table">
+<img src="screenshots/opp_table.png" alt="opportunity table">
 
 The calculation showed that I should not attempt to deliver every requirement and that I would need to prioritise.
 
 Plotting these requirements onto a Trade-off Matrix showed that I should discard items 4 and 7 and only do 5 if time allowed. See the screenshot of my hand-written notes below.
 
-<img src="assets/screenshots/tradeoff_matrix.png" alt="screenshot of a trade-off matrix">
+<img src="screenshots/tradeoff_matrix.png" alt="screenshot of a trade-off matrix">
 
 The results of this Strategy plane exercise informed the scope of the project.
 
@@ -226,15 +226,15 @@ The members of the User Group all suggested green as a base palette colour, whic
 
 I made use of a number of wireframe mock-ups to help me visualise how the functional elements of the page might look on different devices. A sample of these lo-fi, hand-drawn illustrations are detailed below.
 
-<img src="assets/screenshots/wf_steps.png" alt="steps page wireframe">
+<img src="screenshots/wf_steps.png" alt="steps page wireframe">
 
 *Hand-drawn wireframes for the Steps page*
 
-<img src="assets/screenshots/wf_resources_mobile.png" alt="resources page wireframe for mobiles">
+<img src="screenshots/wf_resources_mobile.png" alt="resources page wireframe for mobiles">
 
  *Hand-drawn wireframe for the Sign Up form on mobile devices*
 
-<img src="assets/screenshots/wf_resources_laptop.png" alt="resources page wireframe for laptops">
+<img src="screenshots/wf_resources_laptop.png" alt="resources page wireframe for laptops">
 
 *Hand-drawn wireframe for the Resources page on laptops*
 
@@ -261,41 +261,41 @@ Appraisal testing adopted a quantitative approach with a strong emphasis on Ligh
 
 + Lighthouse - The following images show Lighthouse test results for each page of the deployed website. The testing was done on Google Chrome using Incognito mode.
 
-    <img src="assets/screenshots/testing_welcome.png" alt="welcome page lighthouse results">
+    <img src="screenshots/testing_welcome.png" alt="welcome page lighthouse results">
 
     *Lighthouse test results for the Welcome page*
 
-    <img src="assets/screenshots/testing_steps.png" alt="steps page lighthouse results">
+    <img src="screenshots/testing_steps.png" alt="steps page lighthouse results">
 
     *Lighthouse test results for the Steps page*
 
-    <img src="assets/screenshots/testing_resources.png" alt="resources page lighthouse results">
+    <img src="screenshots/testing_resources.png" alt="resources page lighthouse results">
 
     *Lighthouse test results for the Resources page*
 
 + WAVE - The following images show Web Accessibility Evaluation Tool (WAVE) test results for each page of the deployed website. The testing was done on Google Chrome using Incognito mode.
 
-    <img src="assets/screenshots/testing_wave_welcome.png" alt="welcome page wave results">
+    <img src="screenshots/testing_wave_welcome.png" alt="welcome page wave results">
 
     *WAVE test results for the Welcome page*
 
-    <img src="assets/screenshots/testing_wave_steps.png" alt="steps page wave results">
+    <img src="screenshots/testing_wave_steps.png" alt="steps page wave results">
 
     *WAVE test results for the Steps page*
 
-    <img src="assets/screenshots/testing_wave_resources.png" alt="resources page wave results">
+    <img src="screenshots/testing_wave_resources.png" alt="resources page wave results">
 
     *WAVE test results for the Resources page*
 
 + Validation - The HTML code for each page was validated using the World Wide Web Consortium (W3C) online checking service. Each page passed with no errors or warnings. The CSS code was validated using W3C Validation Service - Jigsaw and passed with no error found.
 
-    <img src="assets/screenshots/css_validation.png" alt="css validation screenshot">
+    <img src="screenshots/css_validation.png" alt="css validation screenshot">
 
     *CSS validation results*
 
 + Functionality - the following screenshot shows website functionality testing results captured in a Word document:
 
-    <img src="assets/screenshots/testing_functionality.png" alt="functionality test results screenshot">
+    <img src="screenshots/testing_functionality.png" alt="functionality test results screenshot">
 
     *Functionality test results*
 
@@ -325,7 +325,7 @@ Whilst it is beyond the scope of this README to reference every bug and every fi
 #### Checking Website Feel
 Early in the development cycle, two of my friends and my wife agreed to act as a User Group for my project. As part of discussing the planes of Strategy and Scope with them, I explained what I was hoping to achieve. After putting together the first page for early deployment, I received the following feedback:
 
-<img src="assets/screenshots/user_feedback_feel.png" alt="User Group feedback screenshot">
+<img src="screenshots/user_feedback_feel.png" alt="User Group feedback screenshot">
 
 This feedback gave me confidence that the colour palette was suitable and that the garden theme for the site was worth pursuing.
 
@@ -333,7 +333,7 @@ This feedback gave me confidence that the colour palette was suitable and that t
 
 After deploying the remaining pages, a member of the User Group noted:
 
-<img src="assets/screenshots/user_feedback_form.png" alt="User Group feedback screenshot">
+<img src="screenshots/user_feedback_form.png" alt="User Group feedback screenshot">
 
 This feedback gave me further confidence that the feel of the site was correct and that there was a bug in the HTML for the form.
 
@@ -405,6 +405,7 @@ The git reset command was used early in development to revert to an earlier vers
 + Chrome Developer Tools was used monitor development and preview changes
 + Lighthouse was used to assess performance, accessibility, best practices and SEO metrics
 + wave.webaim.org was used to check enhanced accessibility metrics
++ WhatsApp for User Group communication
 
 
 
@@ -413,7 +414,7 @@ This section includes a list of lessons learned during this project in no partic
 + Not every feature has the same value to effort ratio - I wasted around 2 hours at the beginning of the project trying to design a graphical logo that was never implemented. The text-based logo works has a similar value with far less effort.
 + Putting temporary borders or background colours around divs really helps - I was struggling with sizing the two divs on the resources page until I put a black border around them so that I could see what I was trying to style. See below for an example:
 
-    <img src="assets/screenshots/divs_with_borders.png" alt="divs with borders image">
+    <img src="screenshots/divs_with_borders.png" alt="divs with borders image">
 
 + Chrome Dev Tools is very powerful BUT I need a lot more practice
 + I need to set time limits on trying out new things. Trying to fix the Path image issue took a lot of time and I eventually had to draw a line under it. The same with designing an unused logo. The time wasn't totally wasted as I learned, but I lost time in terms of getting the project complete. Don't let perfect be the enemy of good.
