@@ -136,7 +136,7 @@ This website is responsive for all screen sizes.
 + **Metaphor Images** - Depending on the screen size used, users will see either one or two metaphor images. On mobile screens and others up to 768px, the image behind the form is that of a garden path ascending some steps (as seen above). The image behind the links section is that of a hand holding a seedling (also see above). On screens above 768px, only the seedling image is displayed. Both images are in keeping with the Garden theme. The path represents 'next steps' for the user - sign up for our newsletter and continue your debt-free journey with us. The seedling represents new personal growth which can be nurtured using the links provided.
 
 ## Development Steps
-The website was developed using a mobile-first approach coupled with the five planes of User Centred Design (UCD). 
+The website was developed using a mobile-first approach coupled with the five planes of User Centred Design (UCD). I was fortunate to have some friends willing to act as a User Group. This group provided suggestions, feedback and bug highlighting. Their help was invaluable and they had a huge impact on the styling and functionality of the website.
 
 The sections below detail the five planes of UCD and how they were applied within the Debt Deliverance Website development process.
 
@@ -214,7 +214,34 @@ When designing features for the site, I kept the following concerns in mind. Int
 #### Information Architecture
 For a website with the above scope, a three-page tree-structure would be sufficient. From both a development and user perspective, this would keep the site simple to design (being my first project) and simple to navigate (avoids the risk of the site detracting from the message).
 
-### skeleton
+### Skeleton
+The Skeleton plane was concerned with the following elements:
++ Interface Design
++ Navigation Design
+
+#### Interface Design
+When designing the website interface, a key objective was to establish a feeling of calm in the user. People in debt are often under emotional strain and I wanted the website to generate a positive emotional response. Immediately, this put me in mind of news articles about people in debt, and the ubiquitous image of someone with their head in their hands looking at papers. I did not want the website to be a mirror of the user, rather a place of hope.
+
+The User Group all suggested green as a base palette colour, which then triggered the idea of having a conversation about debt in a garden. Gardens are synonymous with relaxation and growth. Many times in my own life, I have sought advice from family and friends whilst chatting in a garden. The overarching metaphor for the website became giving advice about debt whilst taking a stroll through a garden.
+
+I made use of a number of wireframe mock-ups to help me visualise how the functional elements of the page might look on different devices. A sample of these lo-fi, hand-drawn illustrations are detailed below.
+
+<img src="assets/screenshots/wf_steps.png" alt="steps page wireframe">
+
+*Hand-drawn wireframes for the Steps page*
+
+<img src="assets/screenshots/wf_resources_mobile.png" alt="resources page wireframe for mobiles">
+
+ *Hand-drawn wireframe for the Sign Up form on mobile devices*
+
+<img src="assets/screenshots/wf_resources_laptop.png" alt="resources page wireframe for laptops">
+
+*Hand-drawn wiferframe for the Resources page on laptops*
+
+#### Navigation Design
+
+
+
 ### surface
 
 ## Testing
