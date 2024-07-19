@@ -37,7 +37,7 @@ This website is responsive for all screen sizes.
 
 + **Hero Image** - The Welcome page opens with a large image of a flower. The purpose is to greet a visitor with a calming picture that puts users in mind of a garden. The overlay text uses level 2 headings to clearly articulate the purpose of the website.
 
-    <img src="assets/screenshots/hero_image.png" alt="Screenshot of the wedsite's hero image"> 
+    <img src="assets/screenshots/hero_image.png" alt="Screenshot of the website's hero image"> 
         
     *Hero image with text overlay*
 
@@ -69,7 +69,7 @@ This website is responsive for all screen sizes.
 
 + **Internal Navigation** - To aid the user in moving around the page, internal navigation links have been provided beneath the metaphor image. These links use upper case lettering to distinguish them from the main site navigation links. The font face and colour match that of the sections to which they relate. The links obey the same hover rules as the other navigation links.
 
-    <img src="assets/screenshots/internal_nav_links.png" alt="internal navigation sceenshot">
+    <img src="assets/screenshots/internal_nav_links.png" alt="internal navigation screenshot">
 
     *Internal navigation links*
 
@@ -164,7 +164,7 @@ Who is currently helping in the UK? A basic search for debt help UK yields first
 Other websites continue in a similar vein. Lots of text detailing practical but formalised steps involving management agreements or bankruptcy procedures.
 
 What is missing is a website that:
-+ Recognises that people in debt are often overwrought and tries to address that immediatley
++ Recognises that people in debt are often overwrought and tries to address that immediately
 + Challenges people in debt to look at their behaviour as part of the solution to debt
 
 These holes became starting points for requirements for my website that could add value to the personal finance space.
@@ -181,7 +181,7 @@ Plotting these requirements onto a Trade-off Matrix showed that I should discard
 
 <img src="assets/screenshots/tradeoff_matrix.png" alt="screenshot of a trade-off matrix">
 
-The results of this Strategy plane exerise informed the scope of the project.
+The results of this Strategy plane exercise informed the scope of the project.
 
 ### Scope
 The scope of the project, derived from the Strategy plane became:
@@ -206,7 +206,7 @@ With scope identified, the Structure plane involved the following considerations
 #### Interaction Design
 When designing features for the site, I kept the following concerns in mind. Interactions needed to be:
 + Consistent - use established conventions for layout and navigation and ensure internal consistency from one page to another - examples: navigation toggle for mobiles; consistent styling across the site
-+ Predictable - Does the user know where they are? What they can do? Where they can go? - examples: different font colour for current page in navigation menu; navigation menu listing other pages; clear headings on each page to introduce sections; changes of colour when hovering with a curser
++ Predictable - Does the user know where they are? What can they do? Where can they go? - examples: different font colour for current page in navigation menu; navigation menu listing other pages; clear headings on each page to introduce sections; changes of colour when hovering with a curser
 + Learnable - the website should be intuitive - examples: the website behaves the same on each page; pre-selected radio button option
 + Visible - the features on the site should be easy to see and distinguish from each other - examples: form vs the references, large and different images introducing each page
 + Feedback - clearly visible changes in style when interaction occurs - examples: signup form submit button changes colour when hovered and flashes when clicked
@@ -236,15 +236,15 @@ I made use of a number of wireframe mock-ups to help me visualise how the functi
 
 <img src="assets/screenshots/wf_resources_laptop.png" alt="resources page wireframe for laptops">
 
-*Hand-drawn wiferframe for the Resources page on laptops*
+*Hand-drawn wireframe for the Resources page on laptops*
 
 #### Navigation Design
 My primary objective for navigation design was progressive disclosure. I wanted to keep the landing page simple and welcoming, with a large image to set the tone and a brief description as to what the website was about. The next page would provide the detail and use internal navigation to help returning users in particular. The last page would then direct the users onwards. The website would then read like a book utilising a front cover, structured content and a back cover.
 
-I decided, in an effort to keep the navigation styling simple and promote calm, to reserve metaphor for the images and avoid them for navigation. The exception to this being the social media links where the icons are well understood. Icons are a great way to convey concepts but in this instance, I wanted to limit any posibility of confusion in the user's mind.
+In an effort to keep the navigation styling simple and promote calm, metaphor was reserved for the images and avoided for navigation. The exception to this being the social media links where the icons are well understood. Icons are a great way to convey concepts but in this instance, I wanted to limit any possibility of confusion in the user's mind.
 
 ### Surface
-In developing the visual language for the websste, the foremost consideration was calm and garden. These characteristics manifested in the following ways:
+In developing the visual language for the website, the foremost consideration was calm and garden. These characteristics manifested in the following ways:
 + Green colour palette
 + Garden metaphor images
 + Wide line spacing
